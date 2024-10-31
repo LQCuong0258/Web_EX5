@@ -1,4 +1,4 @@
-package vn.iostar.model;
+package vn.iostar.models;
 
 import java.io.Serializable;
 import jakarta.persistence.Id;
@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class CatergoryModel implements Serializable {
+public class CategoryModel implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 

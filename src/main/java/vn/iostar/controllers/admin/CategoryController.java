@@ -18,7 +18,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 import jakarta.validation.Valid;
 import vn.iostar.entity.Category;
-import vn.iostar.services.impl.CategoryService;
+import vn.iostar.models.CategoryModel;
+import vn.iostar.services.CategoryService;
 
 @Controller
 @RequestMapping("/admin/categories")
@@ -89,9 +90,5 @@ public class CategoryController {
 		return new ModelAndView("forward:/admin/categories",model);
 	}
 
-
-}
-
-public class CatergoryController {
 
 }
